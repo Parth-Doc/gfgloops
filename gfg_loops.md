@@ -221,6 +221,32 @@ for i in range(0,n+1):
     print()
     
 ```
+Testcase 1:\
+Input:
+>4
+
+Output:
+>4 3 2 1\
+>3 2 1\
+>2 1\
+>1
+
+Testcase 2:\
+Input:
+>3
+
+Output:
+>3 2 1\
+>2 1\
+>1
+
+Testcase 3:\
+Input:
+>1
+
+Output:
+>1
+
 
 # Question 8:
 Write a program to input an integer N and print the sum of all its even digits and sum of all its odd digits separately.
@@ -436,6 +462,49 @@ for i in range(n,0,-1):
         print('* ', end="")
     print('')
 ```
+Testcase 1:\
+Input:
+>3
+
+Output:
+```python
+* 
+* * 
+* * * 
+* * 
+* 
+```
+Testcase 2:\
+Input:
+>6
+
+Output:
+``` python
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+```
+
+Testcase 3:\
+Input:
+>2
+
+Output:
+```python
+*
+* *
+*
+```
+
+
 # Question 14:
 Write a Python program that prints all the numbers from 0 to n(not including n)except 3 and 6 using loops.
 
@@ -572,6 +641,40 @@ for i in range(1, n+1):
            print( "0", end="")
     print()
 ```
+Testcase 1:\
+Input:
+>3
+
+Output:
+```python
+*00*00*
+0*0*0*0
+00***00
+```
+
+Testcase 2:\
+Input:
+>2
+
+Output:
+```python
+*0*0*
+0***0
+```
+
+Testcase 3:\
+Input:
+>5
+
+Output:
+```python
+*0000*0000*
+0*000*000*0
+00*00*00*00
+000*0*0*000
+0000***0000
+```
+
 # Question 18:
 WAP to replace vowels with "#" in any given string.
 
@@ -780,6 +883,7 @@ Output:
 
 # Question 24:
 Wap to print the following pattern for general n.
+Note: n will only be odd.
 ``` python
 #for n=7
 *
@@ -807,6 +911,45 @@ for i in range(1,num+1):
             print("*",end=" ")
     print()
 ```
+Testcase 1:\
+Input:
+>3
+
+Output:
+```python
+* 
+ * *
+*
+```
+
+Testcase 2:\
+Input:
+>5
+
+Output:
+```python
+* 
+ * *
+  * * *
+ * *
+*
+```
+
+Testcase 3:\
+Input:
+>7
+
+Output:
+```python
+* 
+ * *
+  * * *
+   * * * *
+  * * *
+ * *
+*
+```
+
 # Question 25:
 WAP to find the no of digits of a given no that are even.
 
@@ -827,6 +970,7 @@ Input:
 
 Output:
 >1
+
 Testcase 2:
 
 Input:
@@ -946,6 +1090,41 @@ for i in range(((n-1)//2), 0, -1):
         print("*",end="")
     print()
 ```
+Testcase 1:\
+Input:
+>3
+
+Output:
+```python
+ *
+***
+ *
+```
+
+Testcase 2:\
+Input:
+>1
+
+Output:
+```python
+*
+```
+
+Testcase 3:\
+Input:
+>7
+
+Output:
+``` python
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+```
+
 
 # Question 29:
 Given a list of numbers replace each number with the product of its digits and find the maximum of the new list formed.
@@ -1003,3 +1182,35 @@ for i in range(1,n+1):
             print(0,end="")
     print()
 ```
+Testcase 1:\
+Input:
+>1
+
+Output:
+>1
+
+Testcase 2:\
+Input:
+>2
+
+Output:
+``` python
+11
+0
+```
+
+Testcase 3:\
+Input:
+>5
+
+Output:
+```python
+11111
+0000
+111
+00
+1
+```
+
+
+
